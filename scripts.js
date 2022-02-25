@@ -7,3 +7,12 @@ if ( userInput === "Blue." ) {
   $("#response").html("What about Blue?");
 }
 
+let makeABurrito;
+makeABurrito = function(beansVariable){
+  let beansResponse; 
+  beansRespnse = "You ordered" + beansVariable + beans. Good choice!";
+  $("#response").html(beansResponse);
+};
+let blackBeans; 
+blackBeans = "black";
+makeABurrito(blackBeans);  
